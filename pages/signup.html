@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogue Sign Up</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styleSheet/signup.css">
+
+</head>
+
+<body>
+    <!-- registration  form-->
+
+    <div class="form-box">
+        <form class="register-container" id="signup-form">
+            <div class="top">
+                <span>Already have an account? <a href="login.html" onclick="login()">Login In</a></span>
+                <header class="head">Sign Up</header>
+            </div>
+            <div class="second-part">
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="First Name">
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Last Name">
+                    <i class="bx bx-user"></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Email">
+                <i class="bx bx-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Password">
+                <i class="bx bx-lock-alt"></i>
+            </div>
+            <div class="input-box">
+                <input type="submit" class="submit" value="SignUp">
+            </div>
+            <div class="two-col">
+                <div class="first">
+                    <input type="checkbox" id="register-check">
+                    <label for="register-check">Remember me</label>
+                </div>
+                <div class="second">
+                    <label><a href="#">Terms and conditions</a></label>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>
